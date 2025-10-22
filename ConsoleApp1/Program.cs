@@ -17,6 +17,8 @@ float ff = 0f;
 
 decimal dm = 0;
 decimal dm2 = 0m;
-
+  
+Console.WriteLine(d);
+Console.WriteLine(dd);
 Console.WriteLine(d);
 Console.WriteLine(dd);
