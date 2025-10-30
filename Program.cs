@@ -28,7 +28,10 @@ namespace CSharpDemo
             finally
             {
                 Console.WriteLine("\n程式執行完畢");
-                // 移除 Console.ReadKey() 避免在某些環境發生錯誤
+#if DEBUG
+                Console.WriteLine("按任意鍵結束...");
+                Console.ReadKey(true);
+#endif
             }
         }
     }
